@@ -1,0 +1,1 @@
+bash ./scripts/ECL_script/Autoformer.sh

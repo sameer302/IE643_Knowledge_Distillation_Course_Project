@@ -1,0 +1,8 @@
+# Script for data conversion
+    import pandas as pd
+
+    # Read the Parquet file
+    df = pd.read_parquet("demand.parquet")
+
+    # Save it as CSV
+    df.to_csv("your_file.csv", index=False)

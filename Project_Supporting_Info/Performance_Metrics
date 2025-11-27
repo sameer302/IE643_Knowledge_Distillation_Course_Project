@@ -1,0 +1,11 @@
+- Compute normalized error metrics (MAPE, RMSE/mean) for fair comparison, and
+
+- Add them to your evaluation summary automatically.
+
+✅ Found prediction arrays: (5165, 96, 321)
+📊 MSE=1.2469, MAE=0.9054, RMSE=1.1166, NRMSE=1.3457, MAPE=600.45%
+✅ Saved plots in: ./results_eval/household_eval/
+
+✅ Found prediction arrays: (9985, 96, 57)
+📊 MSE=42.0464, MAE=0.8432, RMSE=6.4843, NRMSE=7.4065, MAPE=518.44%
+✅ Saved plots in: ./results_eval/countrywise_eval/

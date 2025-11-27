@@ -1,0 +1,4 @@
+# Univariate time series is when only one variable is measured over time
+# Multivariate time series is when multiple variables are measured over time
+# Electricity data that we have is multivariate because each household is a separate variable
+

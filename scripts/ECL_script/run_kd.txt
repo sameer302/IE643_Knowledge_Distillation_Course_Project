@@ -1,0 +1,27 @@
+python3 run_kd.py \
+  --datasets electricity_areawise_normalized_clean electricity_countrywise_normalized electricity_household_normalized electricity_jerico_normalized \
+  --cache_root ./cached_predictions \
+  --epochs 15 \
+  --batch_size 32 \
+  --alpha 0.8 \
+  --gpu 0
+
+  python3 run_kd_const_alpha.py \
+  --datasets electricity_areawise_normalized_clean electricity_countrywise_normalized electricity_household_normalized electricity_jerico_normalized \
+  --cache_root ./cached_predictions_new_multiloader \
+  --epochs 15 --batch_size 8 --gpu 0
+
+    python3 run_kd_adaptive_alpha.py \
+  --datasets electricity_areawise_normalized_clean electricity_countrywise_normalized electricity_household_normalized electricity_jerico_normalized \
+  --cache_root ./cached_predictions_new_multiloader \
+  --epochs 15 --batch_size 8 --gpu 0
+
+    python3 run_kd_adaptive_smooth_alpha.py \
+  --datasets electricity_areawise_normalized_clean electricity_countrywise_normalized electricity_household_normalized electricity_jerico_normalized \
+  --cache_root ./cached_predictions_new_multiloader \
+  --epochs 15 --batch_size 8 --gpu 0
+
+    python3 run_kd_learningrate_alpha.py \
+  --datasets electricity_areawise_normalized_clean electricity_countrywise_normalized electricity_household_normalized electricity_jerico_normalized \
+  --cache_root ./cached_predictions_new_multiloader \
+  --epochs 15 --batch_size 8 --gpu 0

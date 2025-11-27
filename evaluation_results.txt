@@ -1,0 +1,31 @@
+1) When alpha = 0.3 and epochs = 40
+📊 ===== Performance Comparison =====
+Metric          Teacher (Autoformer)    Student (TSMixer KD)
+MSE             0.39953         1.06117
+MAE             0.42822         0.77789
+RMSE            0.63208         1.03013
+MAPE            2.60398         1.08168
+MSPE            401.49173               3.53793
+
+2) When alpha = 0.5 and epochs = 20
+📊 ===== Performance Comparison =====
+Metric          Teacher (Autoformer)    Student (TSMixer KD)
+MSE             0.39953         1.07989
+MAE             0.42822         0.78259
+RMSE            0.63208         1.03918
+MAPE            2.60398         1.04898
+MSPE            401.49173               2.11351
+
+Plans to improve result
+
+no-shuffle loaders,
+
+running-pointer KD,
+
+Huber+MSE KD loss,
+
+cosine LR warmup,
+
+early stopping, and
+
+gradient clipping.

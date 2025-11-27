@@ -1,0 +1,451 @@
+1) jerico dataset
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.772933
+Student MAE : 1.053488
+Teacher MSE : 1.689092
+Teacher MAE : 1.082206
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,694,694
+Trainable Params    : 10,694,694
+Model Size (est.)   : 40.80 MB
+Inference Latency   : 4.53 ms/sample
+Peak GPU Memory     : 76.18 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 122,374
+Trainable Params    : 122,374
+Model Size (est.)   : 0.47 MB
+Inference Latency   : 0.22 ms/sample
+Peak GPU Memory     : 70.10 MB
+
+-----------------------------------------------------------------------------------------------------------------------
+
+2) countrywise dataset
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 2.132938
+Student MAE : 1.119669
+Teacher MSE : 1.250754
+Teacher MAE : 0.859707
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,791,993
+Trainable Params    : 10,791,993
+Model Size (est.)   : 41.17 MB
+Inference Latency   : 4.37 ms/sample
+Peak GPU Memory     : 76.62 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 124,825
+Trainable Params    : 124,825
+Model Size (est.)   : 0.48 MB
+Inference Latency   : 0.21 ms/sample
+Peak GPU Memory     : 70.49 MB
+
+------------------------------------------------------------------------------------------------------------------------------
+
+3) areawise dataset
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 2.609589
+Student MAE : 1.262177
+Teacher MSE : 0.899448
+Teacher MAE : 0.738323
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,715,178
+Trainable Params    : 10,715,178
+Model Size (est.)   : 40.88 MB
+Inference Latency   : 4.19 ms/sample
+Peak GPU Memory     : 76.27 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 122,890
+Trainable Params    : 122,890
+Model Size (est.)   : 0.47 MB
+Inference Latency   : 0.20 ms/sample
+Peak GPU Memory     : 70.18 MB
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+4) household dataset
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 0.902196
+Student MAE : 0.763212
+Teacher MSE : 1.210111
+Teacher MAE : 0.892367
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 12,143,937
+Trainable Params    : 12,143,937
+Model Size (est.)   : 46.33 MB
+Inference Latency   : 4.56 ms/sample
+Peak GPU Memory     : 83.74 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 158,881
+Trainable Params    : 158,881
+Model Size (est.)   : 0.61 MB
+Inference Latency   : 0.21 ms/sample
+Peak GPU Memory     : 76.93 MB
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1)  areawise dataset
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 0.891374
+Student MAE : 0.729515
+Teacher MSE : 0.893035
+Teacher MAE : 0.733862
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,715,178
+Trainable Params    : 10,715,178
+Model Size (est.)   : 40.88 MB
+Inference Latency   : 4.31 ms/sample
+Peak GPU Memory     : 76.27 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 122,890
+Trainable Params    : 122,890
+Model Size (est.)   : 0.47 MB
+Inference Latency   : 0.21 ms/sample
+Peak GPU Memory     : 70.18 MB
+
+2)  countrywise
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.258379
+Student MAE : 0.894095
+Teacher MSE : 1.118533
+Teacher MAE : 0.844749
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,791,993
+Trainable Params    : 10,791,993
+Model Size (est.)   : 41.17 MB
+Inference Latency   : 4.30 ms/sample
+Peak GPU Memory     : 76.62 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 124,825
+Trainable Params    : 124,825
+Model Size (est.)   : 0.48 MB
+Inference Latency   : 0.25 ms/sample
+Peak GPU Memory     : 70.49 MB
+
+3) household
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.060894
+Student MAE : 0.842479
+Teacher MSE : 1.163876
+Teacher MAE : 0.871569
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 12,143,937
+Trainable Params    : 12,143,937
+Model Size (est.)   : 46.33 MB
+Inference Latency   : 4.68 ms/sample
+Peak GPU Memory     : 83.74 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 158,881
+Trainable Params    : 158,881
+Model Size (est.)   : 0.61 MB
+Inference Latency   : 0.21 ms/sample
+Peak GPU Memory     : 76.93 MB
+
+4) jerico
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.526858
+Student MAE : 0.976558
+Teacher MSE : 1.774089
+Teacher MAE : 1.107130
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,694,694
+Trainable Params    : 10,694,694
+Model Size (est.)   : 40.80 MB
+Inference Latency   : 4.52 ms/sample
+Peak GPU Memory     : 76.18 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 122,374
+Trainable Params    : 122,374
+Model Size (est.)   : 0.47 MB
+Inference Latency   : 0.21 ms/sample
+Peak GPU Memory     : 70.10 MB
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1)  areawise dataset
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 0.857987
+Student MAE : 0.707259
+Teacher MSE : 0.864748
+Teacher MAE : 0.726753
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,715,178
+Trainable Params    : 10,715,178
+Model Size (est.)   : 40.88 MB
+Inference Latency   : 11.29 ms/sample
+Peak GPU Memory     : 76.69 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 230,858
+Trainable Params    : 230,858
+Model Size (est.)   : 0.88 MB
+Inference Latency   : 0.36 ms/sample
+Peak GPU Memory     : 70.60 MB
+
+2)  countrywise
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.231335
+Student MAE : 0.884735
+Teacher MSE : 1.145289
+Teacher MAE : 0.856490
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,791,993
+Trainable Params    : 10,791,993
+Model Size (est.)   : 41.17 MB
+Inference Latency   : 4.31 ms/sample
+Peak GPU Memory     : 77.03 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 232,793
+Trainable Params    : 232,793
+Model Size (est.)   : 0.89 MB
+Inference Latency   : 0.37 ms/sample
+Peak GPU Memory     : 70.91 MB
+
+3) household
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.073648
+Student MAE : 0.849158
+Teacher MSE : 1.234312
+Teacher MAE : 0.897031
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 12,143,937
+Trainable Params    : 12,143,937
+Model Size (est.)   : 46.33 MB
+Inference Latency   : 4.58 ms/sample
+Peak GPU Memory     : 84.15 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 266,849
+Trainable Params    : 266,849
+Model Size (est.)   : 1.02 MB
+Inference Latency   : 0.36 ms/sample
+Peak GPU Memory     : 77.35 MB
+
+4) jerico
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.420647
+Student MAE : 0.927497
+Teacher MSE : 1.924468
+Teacher MAE : 1.164852
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,694,694
+Trainable Params    : 10,694,694
+Model Size (est.)   : 40.80 MB
+Inference Latency   : 4.12 ms/sample
+Peak GPU Memory     : 76.60 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 230,342
+Trainable Params    : 230,342
+Model Size (est.)   : 0.88 MB
+Inference Latency   : 0.37 ms/sample
+Peak GPU Memory     : 70.52 MB
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    alpha_dict = {
+        0: 0.3,  # areawise
+        1: 0.9,  # countrywise
+        2: 0.4,  # household
+        3: 0.1,  # jerico
+    }
+
+1) areawise
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 0.210389
+Student MAE : 0.353297
+Teacher MSE : 0.864748
+Teacher MAE : 0.726753
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,715,178
+Trainable Params    : 10,715,178
+Model Size (est.)   : 40.88 MB
+Inference Latency   : 11.23 ms/sample
+Peak GPU Memory     : 76.69 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 230,858
+Trainable Params    : 230,858
+Model Size (est.)   : 0.88 MB
+Inference Latency   : 0.55 ms/sample
+Peak GPU Memory     : 70.60 MB
+
+2) household
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.037833
+Student MAE : 0.837408
+Teacher MSE : 1.234312
+Teacher MAE : 0.897031
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 12,143,937
+Trainable Params    : 12,143,937
+Model Size (est.)   : 46.33 MB
+Inference Latency   : 4.65 ms/sample
+Peak GPU Memory     : 84.15 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 266,849
+Trainable Params    : 266,849
+Model Size (est.)   : 1.02 MB
+Inference Latency   : 0.38 ms/sample
+Peak GPU Memory     : 77.35 MB
+
+3)  countrywise
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.205634
+Student MAE : 0.876920
+Teacher MSE : 1.145289
+Teacher MAE : 0.856490
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,791,993
+Trainable Params    : 10,791,993
+Model Size (est.)   : 41.17 MB
+Inference Latency   : 4.65 ms/sample
+Peak GPU Memory     : 77.03 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 232,793
+Trainable Params    : 232,793
+Model Size (est.)   : 0.89 MB
+Inference Latency   : 0.36 ms/sample
+Peak GPU Memory     : 70.91 MB
+
+4) jerico
+
+📊 Evaluation Results
+---------------------------
+Student MSE : 1.414264
+Student MAE : 0.925859
+Teacher MSE : 1.924468
+Teacher MAE : 1.164852
+
+📈 Profiling Teacher & Student
+
+🧩 Teacher (Autoformer) Resource Profile
+---------------------------
+Total Params        : 10,694,694
+Trainable Params    : 10,694,694
+Model Size (est.)   : 40.80 MB
+Inference Latency   : 4.47 ms/sample
+Peak GPU Memory     : 76.60 MB
+
+🧩 Student (TSMixer) Resource Profile
+---------------------------
+Total Params        : 230,342
+Trainable Params    : 230,342
+Model Size (est.)   : 0.88 MB
+Inference Latency   : 0.38 ms/sample
+Peak GPU Memory     : 70.52 MB
+

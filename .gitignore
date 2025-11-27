@@ -1,0 +1,57 @@
+# ---------------------------
+#  IGNORE HEAVY PROJECT FILES
+# ---------------------------
+
+# Teacher predictions (VERY LARGE)
+cached_predictions/
+cached_predictions*/
+cached_predictions_seq/
+cached_predictions_new_multiloader/
+
+# Checkpoints (large)
+checkpoints/
+*/checkpoints/
+
+# KD cached results
+results/
+test_results/
+plots/
+
+# Electricity datasets
+dataset/
+*.csv
+*.tsv
+
+# Internal numpy/binary files
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Image & PDF outputs (generated)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Zip/tar/archives
+*.zip
+*.tar
+*.tar.gz
+*.gzip
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Backup or temporary files
+*~
+*.tmp
