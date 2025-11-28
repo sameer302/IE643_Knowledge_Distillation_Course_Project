@@ -6,11 +6,11 @@ We explore several novel knowledge distillation (KD) strategies—including **ad
 
 ---
 
-## 📁 Datasets Used
+## Datasets Used
 
 All four electricity consumption datasets used in this project are available in a consolidated Google Drive folder:
 
-👉 **Download here:**  
+ **Download here:**  
 https://drive.google.com/drive/folders/1TH3lVjDuTfw9rzhwe-vy8TWwkh657vI-?usp=sharing
 
 Below is a brief overview of each dataset:
