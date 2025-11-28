@@ -43,8 +43,8 @@ except Exception:
 # st.info(f"📌 Target column automatically selected: '{target_col}'")
 
 # 🔹 Fixed model checkpoint paths (edit these to your actual files)
-teacher_ckpt = "/home/sameer/Desktop/AutumnSem25/Courses/IE643/KD_Final/checkpoints/global_finetune/dataset_manifest/global_finetune/checkpoint.pth"
-student_ckpt = "/home/sameer/Desktop/AutumnSem25/Courses/IE643/KD_Final/checkpoints/student_kd/electricity_areawise_normalized_clean_electricity_countrywise_normalized_electricity_household_normalized_electricity_jerico_normalized_student_projected_alpha.pth"
+teacher_ckpt = "/home/sameer/Desktop/AutumnSem25/Courses/IE643/KD_Final/checkpoints/global_finetune_new/dataset_manifest/global_finetune_new/checkpoint.pth"
+student_ckpt = "/home/sameer/Desktop/AutumnSem25/Courses/IE643/KD_Final/checkpoints/student_kd/electricity_areawise_normalized_clean_electricity_countrywise_normalized_electricity_household_normalized_electricity_jerico_normalized_student_projected_adaptive_smoothing.pth"
 
 # st.write(f"Forecasting target: `{target_col}`")
 
